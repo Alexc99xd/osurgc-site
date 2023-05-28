@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './routes/ErrorPage.tsx';
 import Index from './routes/Index/Index.tsx';
 import NavBar from './routes/Nav/NavBar.tsx';
@@ -50,5 +50,12 @@ const router = createBrowserRouter([
 
 
 export default function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <Routes>
+    <Route path="/" element={<Index />}>
+      <Route index element={<NavBar />} />
+      {/* <Route path="*" element={<NoMatch />} /> */}
+    </Route>
+  </Routes>
+  );
 }

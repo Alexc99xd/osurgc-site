@@ -5,9 +5,29 @@ function Index() {
   
     return (
       <>
+
         <NavBar/>
-        
         <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        <h1>Hello world, this is the index page of osurgc</h1>
+        
+
 
         <Footer/>
       </>
