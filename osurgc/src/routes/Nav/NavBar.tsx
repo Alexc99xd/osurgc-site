@@ -29,8 +29,8 @@ function NavBar() {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a className="dropdown-item" href="#">Arcade Guide</a></li>
-                  <li><a className="dropdown-item" href="#">Redbubble Shop</a></li>
-                  <li><a className="dropdown-item" href="#">Discord Link</a></li>
+                  <li><a className="dropdown-item" href="https://www.redbubble.com/people/rhythmgamesclub/shop">Redbubble Shop</a></li>
+                  <li><a className="dropdown-item" href="https://discord.gg/K4wwhP5JQp">Discord Link</a></li>
                 </ul>
               </li>
             </ul>
