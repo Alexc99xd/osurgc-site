@@ -13,6 +13,8 @@ function Guides() {
         <a>chunithm guide</a>
         <a>drummania guide</a>
         <a>iidx guide</a>
+        <a>Museca guide</a>
+        <a>Pop'n guide</a>
       </>
     )
   }
